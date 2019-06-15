@@ -64,7 +64,7 @@ input[type="text"] {
     border-bottom: solid 1px #2c3e50;;
     width: 30%;
     padding-bottom: 4px;
-    color: darkgray;
+    color: #A9A9A9;
     font-weight: lighter;
     letter-spacing: 2px;
     margin-bottom: 30px;
@@ -77,12 +77,12 @@ input[type="text"] {
 }
 
 input::-webkit-input-placeholder {
-    color: darkgray;
+    color: #A9A9A9;
 }
 
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #fff inset;
-    -webkit-text-fill-color: darkgray !important;
+    -webkit-text-fill-color: #A9A9A9 !important;
 }
 
 .form-container button {
@@ -112,7 +112,7 @@ button:active {
 
 .weather__key {
     color: #f16051;
-    border-bottom: solid 2px rgba(255,255,255,0.06);
+    border-bottom: solid 2px rgba(169, 169, 169, 0.5);
     padding: 20px 0 20px 0;
     font-weight: 400;
 }

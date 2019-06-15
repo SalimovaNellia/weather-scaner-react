@@ -1,11 +1,7 @@
-import React from "react";
-
+import React from 'react';
 class Weather extends React.Component{
-
     render(){
-
         return(
-
             <div className="weather-info">
                 {
                     this.props.country && this.props.city && <p className="weather__key">Location:
@@ -39,6 +35,5 @@ class Weather extends React.Component{
         )
     }
 }
-
 
 export default Weather;
